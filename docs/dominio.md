@@ -16,3 +16,13 @@ El sistema no intenta:
 - Gestionar pagos o facturación
 - Funcionar como marketplace o plataforma de intermediación de servicios
 - Reemplazar comunicación personal o no relacionada con el proyecto
+
+## 2. Principios de dominio
+
+- El sistema gestiona decisiones y trabajo relevante, no conversaciones informales.
+- Nada se sobrescribe: todo cambio relevante debe quedar registrado.
+- El avance del proyecto depende de estados explícitos y condiciones objetivas.
+- El feedback del cliente debe ser estructurado para tener impacto en el trabajo.
+- Los cambios de alcance son eventos explícitos y excepcionales, no implícitos.
+- Si una decisión no está registrada en el sistema, no existe para el proyecto.
+- El sistema es la fuente única de verdad del proyecto: si algo no está registrado, no existe a efectos del trabajo.
