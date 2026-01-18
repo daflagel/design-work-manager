@@ -255,3 +255,7 @@ Las siguientes transiciones no están permitidas bajo ningún escenario normal:
 - Si el sistema permite una transición no definida, existe un defecto de dominio.
 - Si una transición ocurre sin evento registrado, existe una pérdida de trazabilidad.
 - Si el estado del proyecto no refleja la realidad operativa, el sistema está mintiendo.
+
+## 5. Decisiones fuera de alcance
+- La gestión de pagos queda fuera del sistema
+- El control de tiempos se delega al criterio profesional
