@@ -1,0 +1,14 @@
+/* Client Chat Container */
+.client-chat-container {
+  height: calc(100vh - 80px);
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .client-chat-container {
+    height: 100vh;
+    border-radius: 0;
+  }
+}

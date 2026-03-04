@@ -1,0 +1,100 @@
+.pending-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f5f5f5 0%, #e0e0e0 100%);
+  padding: 20px;
+}
+
+.pending-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  padding: 48px 40px;
+  text-align: center;
+}
+
+.pending-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  background: #fff3e0;
+  border-radius: 50%;
+  margin-bottom: 24px;
+  color: #f2994a;
+}
+
+.pending-card h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #212121;
+  margin: 0 0 24px 0;
+}
+
+.pending-message {
+  margin-bottom: 32px;
+}
+
+.pending-message p {
+  font-size: 15px;
+  color: #616161;
+  line-height: 1.6;
+  margin: 0 0 16px 0;
+}
+
+.pending-message p:last-child {
+  margin-bottom: 0;
+}
+
+.email-info {
+  padding-top: 16px;
+  border-top: 1px solid #e0e0e0;
+  font-size: 14px !important;
+}
+
+.signout-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: #e0e0e0;
+  color: #424242;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.signout-button:hover {
+  background: #d5d5d5;
+}
+
+.signout-button:active {
+  transform: translateY(1px);
+}
+
+@media (max-width: 480px) {
+  .pending-card {
+    padding: 40px 24px;
+  }
+
+  .pending-icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .pending-card h1 {
+    font-size: 20px;
+  }
+
+  .pending-message p {
+    font-size: 14px;
+  }
+}
